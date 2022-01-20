@@ -21,7 +21,18 @@
       "texto": "é somente um teste pra ver se pega",
       "userId": "2",
       "id": 1
+    },
+    {
+      "titulo": "Ola mund",
+      "texto": "é somente um teste pra ver se pega",
+      "userId": "2",
+      "id": 2
     }
   ],
-  "newsletter": [{ "titulo": "atualização v1.0", "texto": "base da API feita" }]
+  "newsletter": [
+    {
+      "titulo": "atualização v1.0",
+      "texto": "base da API feita"
+    }
+  ]
 }
