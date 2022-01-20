@@ -4,7 +4,7 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 
 ## Endpoints
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+
 
 ### Cadastro
 
@@ -22,3 +22,24 @@ POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+### Posts
+
+POST /posts
+
+para criar um post o usuario deve estar logado, é passado o userID na requisição, junto do campo titulo e texto, o post é atrelado ao user
+
+também é possivel dar um get para ver todos posts, não é necessario estar logado
+
+GET /posts/
+
+também é possivel pegar posts de um usuario especifico usando userId
+
+GET /posts/?userId={value}
+
+
+### Newsletter
+
+GET /newsletter
+
+pode ser vizualizado por qualquer usuario logado e com token.
