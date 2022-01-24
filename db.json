@@ -15,24 +15,68 @@
       "id": 2
     }
   ],
-  "posts": [
+  "item": [
     {
-      "titulo": "Ola mundo",
-      "texto": "é somente um teste pra ver se pega",
-      "userId": "2",
+      "name": "Hamburguer",
+      "category": "Sanduíches",
+      "price": 14.0,
       "id": 1
     },
     {
-      "titulo": "Ola mund",
-      "texto": "é somente um teste pra ver se pega",
-      "userId": "2",
+      "name": "X-Burgue",
+      "category": "Sanduíches",
+      "price": 16.0,
       "id": 2
+    },
+    {
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 18.0,
+      "id": 3
+    },
+    {
+      "name": "Combo Kenzie",
+      "category": "Combos",
+      "price": 26.0,
+      "id": 4
+    },
+    {
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 5.0,
+      "id": 5
+    },
+    {
+      "name": "Coca Cola",
+      "category": "Bebidas",
+      "price": 7.0,
+      "id": 6
+    },
+    {
+      "name": "McShake Ovomaltine",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "id": 7
+    },
+    {
+      "name": "McShake Flocos",
+      "category": "Sobremesas",
+      "price": 10.0,
+      "id": 8
     }
   ],
   "newsletter": [
     {
-      "titulo": "atualização v1.0",
-      "texto": "base da API feita"
+      "text": "Os melhores Hamburgueres do Brasil!"
+    },
+    {
+      "text": "Promocional: Combo Kenzie apenas R$ 26,00!"
+    },
+    {
+      "text": "Experimente nossos McShakes!"
+    },
+    {
+      "text": "Frete Gratís para pedidos acima de R$ 20,00!"
     }
   ]
 }
