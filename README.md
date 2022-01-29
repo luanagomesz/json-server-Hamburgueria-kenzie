@@ -1,6 +1,3 @@
-# json-server-base
-
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento das API's nos Capstones do Q2.
 
 ## Endpoints
 
