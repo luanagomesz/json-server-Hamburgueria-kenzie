@@ -24,4 +24,11 @@ POST /signin
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 
 
+## Newsletter
+
+GET /newsletter <br/>
+
+o newsletter pode ser visualizado por qualquer usuario, logado ou não, aparece na pagina de login
+
+
 A Home somente pode ser vizualiada por usuarios logados
